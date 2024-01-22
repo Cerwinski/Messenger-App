@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/chatFragment">
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.messengerapp.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/authentificationFragment"
+        android:name="com.example.messengerapp.AuthentificationFragment"
+        android:label="fragment_authentification"
+        tools:layout="@layout/fragment_authentification" />
+    <fragment
+        android:id="@+id/grpChatFragment"
+        android:name="com.example.messengerapp.grpChatFragment"
+        android:label="fragment_grp_chat"
+        tools:layout="@layout/fragment_grp_chat" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.messengerapp.settingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
